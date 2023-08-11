@@ -1,11 +1,11 @@
 body::-webkit-scrollbar-thumb {
-    background-color: #223c50;
+    background-color: #777;
     border-radius: 10px;
 }
 
 body::-webkit-scrollbar {
         width: 5px;
-        background-color: #777;
+        background-color: #ccc;
 } 
 
 * {
@@ -110,12 +110,31 @@ h1,h2,h3,h4,h5,h6 {
 }
 .what-is__image {
     max-width: 33%;
+    float: left;
+    margin: 20px;
 }
 .section-header {
     text-align: center;
     margin: 20px 0;
 }
 
+.benefits {
+    font-size: 18px;
+}
+.benefits__image {
+    float: right;
+    max-width: 33%;
+    margin: 20px;
+}
+.how-to {
+    background-color: #F6F6F6;
+    font-size: 18px;
+}
+.how-to__image {
+    float: left;
+    max-width: 33%;
+    margin: 20px;
+}
 .footer {
     background-color: #283448;
 }
